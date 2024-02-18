@@ -1,0 +1,10 @@
+ublic class occurenceofstring {
+    public static void main(String[] args) {
+        String s="Java programming is an oops concept";
+        int count1=s.length(); 
+        int count2=s.replaceAll("a","").length();    
+        int total=count1 - count2;
+        System.out.println("occurence of a in the string : "+total);
+    }
+    
+}
